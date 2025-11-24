@@ -10,13 +10,13 @@ botones.forEach(btn => {
 
         // Oculta los botones y muestra el formulario
         contenedorBotones.style.display = "none";
-        formulario.style.display = "block";
+        formulario.style.display = "flex";
 
         if(tipo === "cliente") {
-            cliente.style.display = "block";
+            cliente.style.display = "flex";
             empresa.style.display = "none";
         } else if(tipo === "empresa") {
-            empresa.style.display = "block";
+            empresa.style.display = "flex";
             cliente.style.display = "none";
         }
     });

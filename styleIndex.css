@@ -15,7 +15,7 @@ body {
     align-items: center;
     color: #EDEDED;
     font-size: 40px;
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 6px 6px 4px black;
 
 }
 .eslogan{
@@ -49,4 +49,8 @@ body {
     height: 50px;
     border-radius: 30px;
     margin: 20px;
+    cursor: pointer;
+}
+.botonInicio:hover{
+    transform: scale(1.05);
 }

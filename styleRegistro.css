@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    background: radial-gradient(#e2dcdc, #cf72e6) ;
+    font-family: 'Poppins', sans-serif;
+}
+.tipo-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 2px solid #7A4DFF;
+    background-color: #EDED;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s;
+    color: #7A4DFF;
+    box-shadow: 4px 4px 10px 10px rgba(0,0,0,0.5);
+}
+
+.tipo-btn:hover {
+    transform: scale(1.05);
+}
+
+.tipo-btn img {
+    margin-bottom: 10px;
+}
+
+#tipoUsuarioBotones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20;
+}
+
+#registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#camposEmpresa, #camposCliente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e2dcdc;
+    box-shadow: 4px 4px 15px 10px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    gap: 20px;
+    width: 370px;
+    height: 580px;
+    padding-top: 30px;
+}
+#camposEmpresa>input, #camposCliente>input{
+  
+    background-color: #e2dcdc;
+    border: 4px solid #7A4DFF;
+    border-radius: 10px;
+    width: 260px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnRegistro{
+    background-color: #7A4DFF;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 25px; 
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+input:hover, .btnRegistro:hover{
+    transform: scale(1.05);
+}

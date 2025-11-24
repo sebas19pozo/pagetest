@@ -1,5 +1,4 @@
 const btn = document.getElementById('btnEmpezar');
 btn.addEventListener('click', () => {
-    window.location.href = 'registroUsuario.html';
-
+    window.location.href = 'Registro/registroUsuario.html';
 });
